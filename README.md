@@ -21,7 +21,7 @@ Developed as the capstone project for **ETI 4210: Machine Learning** at **Dedan 
 - [🔬 Model Interpretability (Grad-CAM)](#-model-interpretability-grad-cam)
 - [📁 Project Structure](#-project-structure)
 - [🚀 Deployment & Streamlit Web Application](#-deployment--streamlit-web-application)
-- [📽 Project Presentation Deck](#-project-presentation-deck)
+- [📦 Dataset Source](#-dataset-source)
 - [👥 Project Team & Responsibilities](#-project-team--responsibilities)
 - [📜 License & Acknowledgments](#-license--acknowledgments)
 
@@ -208,8 +208,21 @@ Open your browser at `http://localhost:8501`.
 
 ---
 
+## 📦 Dataset Source
+
+The coffee leaf disease image dataset used in this project was sourced from Kaggle:
+
+> **CNN for Classification of Coffee Leaf Diseases**  
+> Author: **Md. Ismiel Hossen Abir**  
+> 🔗 [https://www.kaggle.com/code/mdismielhossenabir/cnn-for-classification-of-coffee-leaf-diseases/](https://www.kaggle.com/code/mdismielhossenabir/cnn-for-classification-of-coffee-leaf-diseases/)
+
+The dataset comprises **3,766 high-resolution annotated coffee leaf photographs** spanning 5 categories: Healthy, Rust, Miner, Phoma, and Red Spider Mite. We gratefully acknowledge the original data contributor for making this dataset publicly available for research and educational use.
+
+---
+
 ## 📜 License & Acknowledgments
 
 - **Academic Context**: Developed for educational and research purposes under the B.Sc. in Telecommunication & Information Engineering capstone at Dedan Kimathi University of Technology (DeKUT).
 - **Architecture**: MobileNetV2 pretrained on ImageNet via Keras Applications.
 - **Agronomic Advisory**: Guidelines formulated from KALRO (Kenya Agricultural and Livestock Research Organization) and CRF (Coffee Research Foundation) standards.
+- **Dataset**: Sourced from Kaggle — [CNN for Classification of Coffee Leaf Diseases](https://www.kaggle.com/code/mdismielhossenabir/cnn-for-classification-of-coffee-leaf-diseases/) by Md. Ismiel Hossen Abir.
