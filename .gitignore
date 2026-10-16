@@ -1,0 +1,93 @@
+# ==============================================================================
+# .gitignore for Coffee Leaf Disease Detection Project (DeKUT ETI 4210)
+# ==============================================================================
+
+# --- Photos and Dataset Archives ---
+Coffee leaf Diseases/
+Coffee leaf Diseases*/
+photos/
+Photos/
+dataset/
+Dataset/
+*.zip
+*.tar.gz
+*.rar
+*.7z
+Coffee leaf Diseases.zip
+
+# --- Presentations and Slides ---
+ML_Project_Concept cld.pptx
+*.pptx
+*.ppt
+*.key
+*.odp
+presentations/
+Presentations/
+slides/
+Slides/
+
+# --- Model Checkpoints and Heavy Weights ---
+# (Keep TFLite edge model and class_labels.json for lightweight deployment,
+# ignore large intermediate training weights and temporary keras checkpoints if needed)
+*.h5
+checkpoint/
+checkpoints/
+
+# --- Python Environment & Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Jupyter Notebook & Colab Checkpoints ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.colab/
+
+# --- Streamlit and IDE Cache ---
+.streamlit/secrets.toml
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Logs and Temporary Artifacts ---
+*.log
+logs/
+tmp/
+temp/
+#--presentations
+presentation.html
+PRESENTATION.md
+build_presentation_deck.py

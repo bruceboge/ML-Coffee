@@ -1,0 +1,27 @@
+{
+    "classes": [
+        "Healthy",
+        "Miner",
+        "Phoma",
+        "Red Spider Mite",
+        "Rust"
+    ],
+    "class_to_idx": {
+        "Healthy": 0,
+        "Miner": 1,
+        "Phoma": 2,
+        "Red Spider Mite": 3,
+        "Rust": 4
+    },
+    "idx_to_class": {
+        "0": "Healthy",
+        "1": "Miner",
+        "2": "Phoma",
+        "3": "Red Spider Mite",
+        "4": "Rust"
+    },
+    "img_size": [
+        224,
+        224
+    ]
+}
